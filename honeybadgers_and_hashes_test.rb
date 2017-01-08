@@ -9,7 +9,6 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   # CREATING A SINGLE HONEYBADGER
 
   def test_create_an_empty_honeybadger_hash
-    skip
     # create and empty hash with name honeybadger
 
     assert_equal ({}), honeybadger
@@ -79,6 +78,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_add_a_new_hash_with_attributes_as_the_value
+    skip
     # create and empty hash with name attributes
     # add the key of "color" pointing to the value of the actual color here
     # add the key of "age" pointing to the value of the actual age here
@@ -93,6 +93,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_add_a_second_key_value_pair_to_the_honeybadgers_hash
+    skip
     # create and empty hash with name attributes
     # add the key of "color" pointing to the value of the actual color here
     # add the key of "age" pointing to the value of the actual age here
@@ -111,27 +112,29 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_change_age_attribute_of_honeybadgers
-  # create and empty hash with name attributes
-  # add the key of "color" pointing to the value of the actual color here
-  # add the key of "age" pointing to the value of the actual age here
+    skip
+    # create and empty hash with name attributes
+    # add the key of "color" pointing to the value of the actual color here
+    # add the key of "age" pointing to the value of the actual age here
 
-  # create and empty hash with name honeybadgers
-  # add the key of "Kyle" pointing to the value of the attributes hash
-  # add the key of "Amanda" pointing to the value of another has with color and age required by the test
+    # create and empty hash with name honeybadgers
+    # add the key of "Kyle" pointing to the value of the attributes hash
+    # add the key of "Amanda" pointing to the value of another has with color and age required by the test
 
-  assert_equal 'Rainbow', attributes["color"]
-  assert_equal 21, attributes["age"]
-  assert_equal ({"color" => "rainbow", "age" => 21}), honeybadgers["Kyle"]
-  assert_equal 'sea foam green', attributes2["color"]
-  assert_equal 23, attributes2["age"]
-  assert_equal ({"color" => "sea foam green", "age" => 22}), honeybadgers["Amanda"]
+    assert_equal 'Rainbow', attributes["color"]
+    assert_equal 21, attributes["age"]
+    assert_equal ({"color" => "rainbow", "age" => 21}), honeybadgers["Kyle"]
+    assert_equal 'sea foam green', attributes2["color"]
+    assert_equal 23, attributes2["age"]
+    assert_equal ({"color" => "sea foam green", "age" => 22}), honeybadgers["Amanda"]
 
-  # add one year to the age of 'Kyle' using by incrementing age
-  # not by reassigning it to 22
+    # add one year to the age of 'Kyle' using by incrementing age
+    # not by reassigning it to 22
 
-  # subtract one year to the age of 'Amanda' using by incrementing age
-  # not by reassigning it to 22
+    # subtract one year to the age of 'Amanda' using by incrementing age
+    # not by reassigning it to 22
 
-  assert_equal 22, attributes["age"]
-  assert_equal 22, attributes2["age"]
+    assert_equal 22, attributes["age"]
+    assert_equal 22, attributes2["age"]
+  end
 end
