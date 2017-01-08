@@ -17,6 +17,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_adds_a_color_attibute_to_honeybadger_hash
+    skip
     # create and empty hash with name honeybadger
     # add the key of "color" pointing to the value of the actual name here
 
@@ -24,6 +25,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_adds_an_age_attribute_to_honeybadger_hash
+    skip
     # create and empty hash with name honeybadger
     # add the key of "color" pointing to the value of the actual color here
     # add the key of "age" pointing to the value of the actual age here
@@ -33,6 +35,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_change_age_attribute_of_honeybadger
+    skip
     # create and empty hash with name honeybadger
     # add the key of "color" pointing to the value of the actual color here
     # add the key of "age" pointing to the value of 20 here
@@ -50,6 +53,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   # CREATING MANY HONEYBADGERS
 
   def test_create_an_empty_attributes_hash
+    skip
     # create and empty hash with name attributes
 
     assert_equal ({}), attributes
@@ -57,6 +61,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_adds_a_color_attibute_to_honeybadgers_hash
+    skip
     # create and empty hash with name attributes
     # add the key of "color" pointing to the value of the actual name here
 
@@ -64,6 +69,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_adds_an_age_attributes_to_honeybadgers_hash
+    skip
     # create and empty hash with name attributes
     # add the key of "color" pointing to the value of the actual color here
     # add the key of "age" pointing to the value of the actual age here
@@ -73,6 +79,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_adds_a_new_hash_with_attributes_as_the_value
+    skip
     # create and empty hash with name attributes
     # add the key of "color" pointing to the value of the actual color here
     # add the key of "age" pointing to the value of the actual age here
@@ -87,6 +94,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_add_a_second_key_value_pair_to_the_honeybadgers_hash
+    skip
     # create and empty hash with name attributes
     # add the key of "color" pointing to the value of the actual color here
     # add the key of "age" pointing to the value of the actual age here
@@ -105,6 +113,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
   end
 
   def test_change_age_attribute_of_honeybadgers
+    skip
     # create and empty hash with name attributes
     # add the key of "color" pointing to the value of the actual color here
     # add the key of "age" pointing to the value of the actual age here
