@@ -5,6 +5,7 @@ require 'minitest/homework'
 require 'pry'
 
 class HoneybadgersAndHashesTest < Minitest::Homework
+  be_gentle!
 
   # CREATING A SINGLE HONEYBADGER
 
@@ -15,7 +16,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
     assert_equal true, honeybadger.empty?
   end
 
-  def test_add_a_color_attibute_to_hash
+  def test_adds_a_color_attibute_to_honeybadger_hash
     skip
     # create and empty hash with name honeybadger
     # add the key of "color" pointing to the value of the actual name here
@@ -23,7 +24,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
     assert_equal 'rainbow', honeybadger["color"]
   end
 
-  def test_add_an_age_attribute_to_hash
+  def test_adds_an_age_attribute_to_honeybadger_hash
     skip
     # create and empty hash with name honeybadger
     # add the key of "color" pointing to the value of the actual color here
@@ -59,7 +60,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
     assert_equal true, attributes.empty?
   end
 
-  def test_add_a_color_attibute_to_hash
+  def test_adds_a_color_attibute_to_honeybadgers_hash
     skip
     # create and empty hash with name attributes
     # add the key of "color" pointing to the value of the actual name here
@@ -67,7 +68,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
     assert_equal 'rainbow', attributes["color"]
   end
 
-  def test_add_an_age_attribute_to_hash
+  def test_adds_an_age_attributes_to_honeybadgers_hash
     skip
     # create and empty hash with name attributes
     # add the key of "color" pointing to the value of the actual color here
@@ -77,7 +78,7 @@ class HoneybadgersAndHashesTest < Minitest::Homework
     assert_equal '20', attributes["age"]
   end
 
-  def test_add_a_new_hash_with_attributes_as_the_value
+  def test_adds_a_new_hash_with_attributes_as_the_value
     skip
     # create and empty hash with name attributes
     # add the key of "color" pointing to the value of the actual color here
